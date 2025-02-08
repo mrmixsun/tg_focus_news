@@ -24,7 +24,7 @@ DATABASE_URL = config('FOCUS_NEWS_DB')  # Updated
 client = TelegramClient(StringSession(session_string), api_id, api_hash)
 
 # Channel to send log messages
-LOG_CHANNEL_ID = <LOG_CHANNEL_ID>  # ID of the 'Фокус News Logs' channel
+LOG_CHANNEL_ID = '-1002321961821'  # ID of the 'Фокус News Logs' channel
 
 # Database setup using SQLAlchemy with PostgreSQL
 engine = create_engine(DATABASE_URL)
