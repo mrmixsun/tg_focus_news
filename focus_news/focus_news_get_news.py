@@ -62,8 +62,7 @@ session = Session()
 
 # News channel information in JSON structure; as many as you need
 news_channel_info = [
-    {"id": "<ID>", "title":  "<TITLE>", "link": "<LINK>"},
-    {"id": "<ID>", "title": "<TITLE>", "link": "<LINK>"}
+    {"id": "-1001365745638", "title":  "Ecomtech", "link": "https://t.me/ecom_tech_channel"}
 ]
 
 # Function to extract links from the message
